@@ -1,0 +1,40 @@
+.header-cap h4::after
+{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: steps(18);
+    animation-direction: alternate;
+}
+
+@keyframes typing {
+    0%{content: "D|";}
+    4%{content: "De|";}
+    8%{content: "Dev|";}
+    12%{content: "Deve|";}
+    16%{content: "Devel|";}
+    20%{content: "Develo|";}
+    24%{content: "Develop|";}
+    28%{content: "Develope|";}
+    32%{content: "Developer|";}
+    36%{content: "Developer";}
+    40%{content: "Develop|";}
+    44%{content: "Develo|";}
+    48%{content: "Devel|";}
+    52%{content: "Deve|";}
+    56%{content: "Dev|";}
+    60%{content: "De|";}
+    64%{content: "D|";}
+    68%{content: "|";}
+    72%{content: "D|";}
+    76%{content: "De|";}
+    80%{content: "Des|";}
+    84%{content: "Desi|";}
+    88%{content: "Desig|";}
+    92%{content: "Design|";}
+    96%{content: "Designe|";}
+    98%{content: "Designer|";}
+    100%{content: "Designer";}  
+}

@@ -1,0 +1,152 @@
+.about {
+  background-color: #fff;
+  padding: 40px;
+  overflow: auto;
+  text-align: center;
+}
+.about .container
+{
+  padding: 40px 0px 0px 0px;
+  width: 30%;
+ display: inline-block;
+}
+/* ------About Img---- */
+.about-img {
+  width: 100%;
+  border-radius: 5px;
+  border: 8px solid #555555;
+  position: relative;
+  display: inline-block;
+  margin-right: 3%;
+  visibility: visible;
+}
+.about-img img {
+  width: 100%;
+  transform: translate(20px, 20px);
+  border-radius: 5px;
+}
+/* ------About Img caption---- */
+.about-cap {
+  transform: translate(20px, 20px);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.57);
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 1s ease;
+  visibility: hidden;
+  overflow: hidden;
+}
+.about-cap .social-icon {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 0%;
+}
+.about-cap ul li i:hover
+{
+  color: #ff305b;
+}
+.about-cap ul li {
+  display: inline-block;
+  width: 10%;
+}
+/* ---About hover--- */
+.about-img:hover .about-cap {
+  visibility: visible;
+  top: 0%;
+}
+/* ---About content--- */
+.about-title h2 {
+    padding-left: 13px;
+    position: relative;
+}
+.about-title {
+  margin-bottom: 25px;
+}
+.about-title h2::before {
+  background-color: #ff305b;
+  margin-right: 10px;
+  content: "";
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 4px;
+}
+.about-content {
+  width: 45%;
+  display: inline-block;
+  text-align: left;
+  padding: 40px 0px 0px 40px;
+  vertical-align: top;
+}
+
+.about p {
+  padding-bottom: 25px;
+  border-bottom: 1px dashed #999999;
+  margin-bottom: 25px;
+}
+.about-profile ul {
+  list-style: none;
+}
+.about-profile ul li {
+  color: #555555;
+  font-weight: 400;
+  line-height: 1;
+  margin-bottom: 25px;
+}
+.about-profile .about-profile-col1 {
+  width: 35%;
+  float: left;
+  vertical-align: top;
+  font-size: 14px;
+}
+.about-profile .about-profile-col2 {
+  width: 60%;
+  float: left;
+  vertical-align: top;
+  font-size: 14px;
+}
+.about-profile .about-profile-col1 li,
+.about-profile .about-profile-col2 li
+{
+  color: #555;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.about-profile .about-profile-col1 li span,
+.about-profile .about-profile-col2 li span{
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.about-btn i , .social-icon i
+{
+    color: #fff;
+    font-size: 16px;
+}
+.social-icon i
+{
+  font-size: 20px;
+}
+/* ---Button--- */
+.about-btn button {
+  padding: 10px 24px;
+  border-radius: 4px;
+  background-color: #ff305b;
+  color: #fff;
+  border-style: none;
+  margin-right: 10px;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.about-btn button i {
+  margin-left: 10px;
+}
